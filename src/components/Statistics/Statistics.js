@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import styles from "./Statistics.module.css";
 
-const Statistics = ({ title, stats, id }) => {
+const Statistics = ({ title, stats }) => {
   return (
     <section className={styles.statistics}>
       {title && <h2 className={styles.title}>{title}</h2>}
